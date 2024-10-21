@@ -12,7 +12,7 @@
         <a-scene embedded arjs='sourceType: webcam; debugUIEnabled: false; detectionMode: mono_and_matrix; matrixCodeType: 4x4;'>
 
         <a-marker type='barcode' value='163'>
-            <a-box position='0 1 0' color="yellow"></a-box>
+           <a-sphere position='0 1 0' color="green"></a-sphere>
         </a-marker>
     
         <!-- use this <a-entity camera> to support multiple-markers, otherwise use <a-marker-camera> instead of </a-marker> -->
@@ -28,7 +28,7 @@ Don’t worry if this looks scary. Notice the highlighted regions:
  <a-marker type='barcode' value='163'> 
 This is used to identify barcodes for the value 163
 
-<a-box position='0 1 0' color="yellow"></a-box> 
+<a-box position='0 1 0' color="green"></a-box> 
 Once the barcode has been identified, this line shows a box/cube of yellow color on top of the barcode.
 
 You can also show other shapes in place of a box:
